@@ -10,24 +10,24 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="33dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="15dp"
         android:text="Excencion de responsabilidad"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="380dp"
+        android:layout_width="350dp"
         android:layout_height="match_parent"
         android:layout_below="@+id/textView5"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="16dp"
         android:text="El recordatorio pra el dia de restriccion de la medida de pico y placa es exclusivo para los conductores que se encuentran en la ciudad de Pasto. No se afirma o da garantia, expresa o tacita por la capacidad de amplitud, exactitud y funcionalidad del recordatorio. Es necesario que tenga en cuenta que esta aplicacion depende de los detalles especificos con los que sea configurada. cada cambio realizado en las notificaciones, placa, fecha y hora tendra un impacto en la aplicacion y en la funcion del recordatorio."
         android:textColor="@android:color/background_dark"
         android:textSize="18sp" />
@@ -42,4 +42,17 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView5"
         android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Creado por: Alejandro Santacruz"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/button2"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
 </RelativeLayout >

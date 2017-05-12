@@ -18,7 +18,7 @@ public class miplaca extends AppCompatActivity {
 
         spinner1 = (Spinner) findViewById(R.id.spinner);
         String []opciones={"0 - 1","2 - 3","4 - 5","6 - 7","8 - 9"};
-        ArrayAdapter <String>adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, opciones);
+        ArrayAdapter <String>adapter = new ArrayAdapter<String>(this,R.layout.color_spinner, opciones);
         spinner1.setAdapter(adapter);
 
         SharedPreferences prefe=getSharedPreferences("datos", Context.MODE_PRIVATE);
